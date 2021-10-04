@@ -14,4 +14,5 @@ In order to use this repository, you need a working installation of [Spack](http
 
 * Install SENSEI and Vistle
 
-    spack install senseiWithVistle
+      spack install senseiWithVistle
+
