@@ -1,4 +1,4 @@
-spack package for my SENSEI fort to use SENSEI with Vistle
+Spack package for my SENSEI to use SENSEI with Vistle
 ============================================================
 
 
@@ -13,4 +13,5 @@ In order to use this repository, you need a working installation of [Spack](http
       spack repo add spack-sensei
 
 * Install SENSEI and Vistle
+
     spack install senseiWithVistle
