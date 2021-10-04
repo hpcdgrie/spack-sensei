@@ -6,7 +6,7 @@
 from spack import *
 
 
-class SenseiWithVistle(CMakePackage):
+class Senseiwithvistle(CMakePackage):
     """SENSEI is a platform for scalable in-situ analysis and visualization.
     Its design motto is 'Write once, run everywhere', this means that once
     the application is instrumented with SENSEI it can use existing and
