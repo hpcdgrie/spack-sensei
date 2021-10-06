@@ -60,7 +60,7 @@ class Senseiwithvistle(CMakePackage):
     depends_on("swig", when="+python", type='build')
     depends_on('cmake@3.6:', when="@3:", type='build')
     depends_on('pugixml')
-    depends_on('vistle@master+dev-multi')
+    depends_on('vistle@master+dev~multi')
     # Since sensei always has a VTK dependency, either directly or indirectly,
     # VTKm will also always be available via VTK so there's no scenario to
     # have a directl dependency on VTK,
