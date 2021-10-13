@@ -85,6 +85,7 @@ class Senseiwithvistle(CMakePackage):
             self.define_from_variant('ENABLE_VTKM', 'vtkm'),
             self.define_from_variant('ENABLE_CATALYST', 'catalyst'),
             self.define_from_variant('ENABLE_LIBSIM', 'libsim'),
+            self.define_from_variant('ENABLE_VISTLE', True),
             self.define_from_variant('ENABLE_VTK_IO', 'vtkio'),
             self.define_from_variant('ENABLE_PYTHON', 'python'),
             self.define_from_variant('ENABLE_ADIOS2', 'adios2'),
